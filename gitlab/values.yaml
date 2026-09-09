@@ -48,6 +48,10 @@ gitlab:
           url: https://github.com/redhat-ads-tech/ocp-app-platform-demo-apps-helm.git
         - name: infra-app-of-apps
           url: https://github.com/redhat-ads-tech/ocp-app-platform-demo-infra-app-of-apps.git
+        # Demo software catalog (AI customer-service platform + owner teams), registered by the
+        # Developer Hub app-config from GitLab. Source of truth stays on GitHub.
+        - name: demo-catalog
+          url: https://github.com/sandrotanaka/rhdh-demo-catalog.git
       users:
         - id: pe1
         - id: pe2

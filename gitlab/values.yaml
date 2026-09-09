@@ -43,7 +43,8 @@ gitlab:
         - name: devfiles
           url: https://github.com/redhat-ads-tech/devfiles.git
         - name: rhdh-templates
-          url: https://github.com/redhat-ads-tech/ocp-app-platform-demo-rhdh-templates.git
+          # Fork: parasol-insurance component moved next to its code (catalog-info.yaml + TechDocs).
+          url: https://github.com/sandrotanaka/ocp-app-platform-demo-rhdh-templates.git
         - name: helm-charts
           url: https://github.com/redhat-ads-tech/ocp-app-platform-demo-apps-helm.git
         - name: infra-app-of-apps
@@ -70,7 +71,8 @@ gitlab:
     - name: parasol
       repo:
         - name: parasol-insurance
-          url: https://github.com/redhat-ads-tech/parasol-insurance.git
+          # Fork of the in-cluster state (scenario commits) plus catalog-info.yaml and TechDocs.
+          url: https://github.com/sandrotanaka/parasol-insurance.git
         - name: parasol-insurance-manifests
           url: https://github.com/redhat-ads-tech/parasol-insurance-manifests.git
         - name: parasol-insurance-secured-manifests

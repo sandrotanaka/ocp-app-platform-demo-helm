@@ -14,7 +14,7 @@ spec:
       valuesObject:
         operator:
           # Uses the live catalog instead of the pinned snapshot because
-          # fast-1.9 is not available in the snapshot image.
+          # fast-1.10 is not available in the snapshot image.
           source: redhat-operators
           sourceNamespace: openshift-marketplace
         vault:

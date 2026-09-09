@@ -7,8 +7,8 @@ vault:
   name: vault
 
 operator:
-  channel: fast-1.9
-  startingCSV: rhdh-operator.v1.9.3
+  channel: fast-1.10
+  startingCSV: rhdh-operator.v1.10.4
   installPlanApproval: Automatic
   source: redhat-operators
   sourceNamespace: openshift-marketplace
